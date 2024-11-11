@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --body-color: #a52a2a;
+}
+
+.wrapper {
+    background-color: var(--body-color);
+    border-radius: 20px;
+    width: 55%;
+    color: #FFFFFF;
+}
+
+.profile_img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
