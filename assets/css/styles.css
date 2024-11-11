@@ -3,7 +3,6 @@ body {
     padding: 0;
     text-decoration: none;
 }
-
 :root {
     --body-color: #a52a2a;
 }
@@ -16,7 +15,7 @@ body {
 }
 
 .profile_img {
-    width: 150px;
-    height: 150px;
+    width: 50%;
+    height: auto;
     border-radius: 50%;
 }
