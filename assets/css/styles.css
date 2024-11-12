@@ -1,7 +1,7 @@
-body {
+* {
     margin: 0;
     padding: 0;
-    text-decoration: none;
+    box-sizing: border-box;
 }
 
 :root {
@@ -9,14 +9,22 @@ body {
 }
 
 .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1rem;
     background-color: var(--body-color);
     border-radius: 20px;
-    width: 55%;
+    width: 90%;
     color: #FFFFFF;
 }
 
 .profile_img {
-    width: 150px;
-    height: 150px;
     border-radius: 50%;
+    width: 15%;
+    height: auto;
+}
+
+section> :not(hr) {
+    padding: 0.5rem;
 }
